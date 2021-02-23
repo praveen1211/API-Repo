@@ -14,9 +14,12 @@ public class LoginPage
    @Test
 	public void login_Auth() throws Exception
 	{
+	   
 		 	RestAssured.baseURI = APICallsList.LOGIN_URL;
 	        RequestSpecification request = RestAssured.given();
-	 
+	        
+	        request.header("Content-Type", "application/json");
+	        
 	        JSONObject requestParams = new JSONObject();
 	       
 	        requestParams.put(StaticData.USERNAME, "TOOLSQA-Test");
