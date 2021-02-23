@@ -1,4 +1,4 @@
-package getRequest;
+package postRequest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
