@@ -1,4 +1,4 @@
-package serviceRequest;
+package getRequest;
 
 public class StaticDataAccess {
 
